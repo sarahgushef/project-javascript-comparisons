@@ -6,9 +6,12 @@ console.log(nameA);
 console.log(nameB);
 console.log(nameCompared);
 
+//==================================
 const ageA = 18;
 const ageB = 25;
+var AOlderThanB;
 
+// if else style
 if (ageA > ageB) {
   console.log("Si A lebih tua dibanding si B");
 } else if (ageA < ageB) {
@@ -17,6 +20,11 @@ if (ageA > ageB) {
   console.log("Mereka seumuran");
 }
 
+// Ternary style
+var AOlderThanB = ageA > ageB ? true : false;
+console.log(AOlderThanB);
+
+// ===================================
 const personA = {
   name: "Alpha",
   age: 20
@@ -35,7 +43,7 @@ switch (personA.age > personB.age){
   case false:
   console.log("Betty lebih tua dibanding Alpha atau seumuran")
   break
-  
+
   default:
   console.log("Alpha dan Betty lahir barengan")
 }
