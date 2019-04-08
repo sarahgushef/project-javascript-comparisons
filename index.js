@@ -9,7 +9,6 @@ console.log(nameCompared);
 //==================================
 const ageA = 18;
 const ageB = 25;
-var AOlderThanB;
 
 // if else style
 if (ageA > ageB) {
@@ -47,3 +46,24 @@ switch (personA.age > personB.age){
   default:
   console.log("Alpha dan Betty lahir barengan")
 }
+
+
+
+/*
+NOTES:
+============================
+var with the same name can be redefined, and let CANNOT be redefined
+
+example:
+var name;
+var name;
+var name;
+
+will not error
+
+example 2:
+let name;
+let name
+
+error, because it defined more than 1
+*/
