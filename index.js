@@ -30,24 +30,22 @@ const personA = {
 };
 
 const personB = {
-  name = "Betty",
+  name: "Betty",
   age: 30
-}
+};
 
-switch (personA.age > personB.age){
+switch (personA.age > personB.age) {
   case true:
-  console.log("Alpha lebih tua dibanding Betty")
-  break
+    console.log("Alpha lebih tua dibanding Betty");
+    break;
 
   case false:
-  console.log("Betty lebih tua dibanding Alpha atau seumuran")
-  break
+    console.log("Betty lebih tua dibanding Alpha atau seumuran");
+    break;
 
   default:
-  console.log("Alpha dan Betty lahir barengan")
+    console.log("Alpha dan Betty lahir barengan");
 }
-
-
 
 /*
 NOTES:
