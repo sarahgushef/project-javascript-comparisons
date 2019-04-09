@@ -20,7 +20,7 @@ if (ageA > ageB) {
 }
 
 // Ternary style
-var AOlderThanB = ageA > ageB ? true : false;
+const AOlderThanB = ageA > ageB ? true : false;
 console.log(AOlderThanB);
 
 // ===================================
